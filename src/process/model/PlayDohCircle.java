@@ -13,9 +13,9 @@ public class PlayDohCircle
 		
 	}
 	
-	public PlayDohCircle(int size)
+	public PlayDohCircle(int big)
 	{
-		this.size = size;
+		this.size = big;
 	}
 	
 	public String toString()

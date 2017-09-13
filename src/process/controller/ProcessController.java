@@ -1,5 +1,6 @@
 package process.controller;
 
+import java.util.Scanner;
 import process.model.PlayDohCircle;		//gets the package and the class from elsewhere so you can use it here
 import process.model.PlayDohSnek;
 
@@ -18,7 +19,11 @@ public class ProcessController
 		System.out.println(firstCircle);		//prints out the package, class, @, then hastag value
 		System.out.println(secondCircle);
 		
-		PlayDohCircle thirdCircle = new PlayDohCircle(10);		//parameters are different
+		Scanner myScanner = new Scanner(System.in);
+		System.out.println("How big of a circle do you want??");
+		int circleSize = myScanner.nextInt();		//tells it to get the int for circleSize from the next number on the next line (so the user's input)
+		
+		PlayDohCircle thirdCircle = new PlayDohCircle(circleSize);		//parameters are different
 		System.out.println(thirdCircle);
 		
 		//Snek info
