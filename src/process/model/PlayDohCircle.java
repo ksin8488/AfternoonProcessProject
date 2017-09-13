@@ -18,6 +18,11 @@ public class PlayDohCircle
 		this.size = big;
 	}
 	
+	public void setSize(int newSize)
+	{
+		this.size = newSize;
+	}
+	
 	public String toString()
 	{
 		String description = "I am a circle, my size is " + size;

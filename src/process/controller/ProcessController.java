@@ -26,7 +26,14 @@ public class ProcessController
 		PlayDohCircle thirdCircle = new PlayDohCircle(circleSize);		//parameters are different
 		System.out.println(thirdCircle);
 		
-		//Snek info
+		
+		System.out.println("What size should we change it to? ");
+		int updated = myScanner.nextInt();
+		thirdCircle.setSize(updated);
+		System.out.print("The cirlce now is.... " );
+		System.out.println(thirdCircle);
+		
+		//Snek info/coding
 		PlayDohSnek snekOne = new PlayDohSnek(1);
 		PlayDohSnek snekTwo;
 		snekTwo = new PlayDohSnek();
