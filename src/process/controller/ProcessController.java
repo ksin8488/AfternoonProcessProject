@@ -4,6 +4,11 @@ import java.util.Scanner;
 import process.model.PlayDohCircle;		//gets the package and the class from elsewhere so you can use it here
 import process.model.PlayDohSnek;
 
+/**
+ * 
+ * @author ksin8488
+ *
+ */
 public class ProcessController
 {
 	public void start()
